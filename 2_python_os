@@ -1,0 +1,7 @@
+- Concat --> a= 'file1' + '/' + 'file2' ==> 'file1/file2' -> enter -> type a and enter ->'file1/file2'
+- os.path.join("os-module-calisma","b")  -> to join directories
+- os.walk("Path that you want to walk) --> The walk function generates the file names in a directory tree by navigating the tree in both directions, either a top-down or a bottom-up transverse. Every directory in any tree of a system has a base directory at its back.
+
+<generator object _walk at 0x000001E731D1C7B0>  --> list.(os.walk("Path that you want to walk)) -> returns you a list 
+
+-

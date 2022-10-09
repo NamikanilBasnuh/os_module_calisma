@@ -1,0 +1,27 @@
+- python3 --version  __> To check out the version
+-  python3 -->first this command and then ---> import os --> To use os module, you need to import it.
+- dir(os) --> will list you ready methods, functions
+- help(os) --> shows you all the documentation
+- os.system("ls -l") --> It shows your files and dricroties and permissions example as "-rw-r--r--" --> you will get '0' end of the line ! If you get something different than '0' , it means there is something going wrong.
+- os.system("pwd")  -->pwd -> present working directory  OR use python3 os module ready function as ---> os.getcwd()
+- os.system("clear")  --> Clear the terminal
+- os.chdir("directory that you want to go") --> chdir means change directory 
+- os.listdir() --> list your all directories
+- For LOOP python3 --> for i in yourList(  example os.listdir()  ) :
+- Need to leave some space  before --> print(i) --> will print out your list as string
+- os.mkdir("newfile.extention") --> create 1 directory and file
+- os.makedirs("FOLDER1/FOLDER2") --> create 2 folders -> folder2 is inside of folder1 (NESTED FOLDER)
+- os.environ.get("HOME")   --> goes to your users/user(namik)
+
+- os.rmdir("directory or full path of directory")   --> To delete single directory
+
+- os.removedirs("full path")  -> To Delete nested directories
+- os.listdir()   --> dir(os.path)  --> shows you all paths --> sizes etc.
+- os.path.exists("path") --> returns boolean --> trues or false. It shows that The path that you provided exist or not. 
+- os.path.isfile("path") --> returns boolean --> trues or false. It is a file or not
+- os.path.isdir("path") --> returns boolean --> trues or false. It is a directoy or not
+- os.path.islink("path")  --> returns boolean --> true or false --> it is a link or not
+- os.path.getsize("path")  --> It returns you the size
+
+
+
